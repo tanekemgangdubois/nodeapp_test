@@ -11,7 +11,7 @@ jobs:
     steps:
       - name: Check out the repo
         uses: actions/checkout@v3
-      
+      #DOCKER_USERNAME=ovdi   and  DOCKER_PASSWORD=Pourquoi2026$
       - name: Log in to Docker Hub
         uses: docker/login-action@v2   
         with:
